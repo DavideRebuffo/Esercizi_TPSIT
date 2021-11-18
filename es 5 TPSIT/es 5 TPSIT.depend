@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1634719492 source:c:\users\client\desktop\es 5 tpsit\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
