@@ -13,7 +13,7 @@ Queue_node*dequeue(Queue_node**head,Queue_node**tail);
 
 int main() {
 
-    Queue_node*head = NULL;
+    Queue_node*head = NULL; //imposto head,tail a NULL
     Queue_node*tail = NULL;
     Queue_node*struct_rerurn = NULL;
     Queue_node*element;
@@ -27,16 +27,10 @@ int main() {
             scanf("%d",%scelta);
         }while(scelta < 0 || scelta > 3);
 
-        switch(scelta){
+        switch(scelta){ //switch case in base alla scelta
     case 1:
         printf("inserire elemento: ");
-
-
         }
-
-
-
-
     }
 
     printf("\n");
