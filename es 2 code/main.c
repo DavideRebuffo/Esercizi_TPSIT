@@ -81,9 +81,9 @@ void stampaLista(Nodo*l)
 }
 
 void main(){
-Nodo* head=formattaLista();
-enqueue(&head, 12);
+Nodo* head=formattaLista(); //crea la coda
+enqueue(&head, 12); 
 enqueue(&head, 13);
 denqueue(&head);
-stampaLista(head);
+stampaLista(head); //stampa la lista dopo l' uso di 2 enqueue e una dequeue
 }
