@@ -41,13 +41,13 @@ int main(){
     nR = chiediDim("inserisci il numero di righe: ");
     nC = chiediDim("inserisci il numero di colonne: ");
 
-    int **mat = creaMatrice(nR,nC);
+    int **mat = creaMatrice(nR,nC); //creazione di una matrice avendo le sue dimensioni
 
     azzeraMatrice(mat,nR,nC);
 
     stampaMatrice(mat, nR,nC);
 
-    free(mat);
+    free(mat); //metodo per liberare la memoria dalla matrice prima creata
 
     printf("\n");
     system("PAUSE");
